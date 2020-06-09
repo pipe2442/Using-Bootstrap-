@@ -33,7 +33,12 @@ nav img {
     line-height: 24px;
 }
 
+.navList a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
 .navList input {
-    width: 6rem;
+    width: 4rem;
     border: none;
 }
