@@ -29,6 +29,11 @@ nav img {
     list-style-type: none;
     font-family: "Roboto Condensed",sans-serif;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1rem;
     line-height: 24px;
+}
+
+.navList input {
+    width: 6rem;
+    border: none;
 }
