@@ -68,6 +68,12 @@ nav img {
 
 .title {
   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.subTitle {
+  color: rgba(3, 3, 3, 0.4); 
+  font-family: 'Roboto', sans-serif;
 }
 
 .par {
@@ -75,4 +81,12 @@ nav img {
   font-size: 15px;
   line-height: 20px;
 }
+
+.lilImage {
+  min-width: 6rem;
 }
+
+/*.columna2 {
+  position: sticky;
+  max-height: 2982px;
+}*/
