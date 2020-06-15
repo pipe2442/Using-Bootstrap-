@@ -65,3 +65,14 @@ nav img {
   border: none;
   margin-right: 0;
 }
+
+.title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.par {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+}
