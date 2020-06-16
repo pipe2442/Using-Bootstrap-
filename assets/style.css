@@ -106,4 +106,22 @@ nav img {
   border-bottom: solid 4px #1c87fb;
 }
 
+.n-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.n-title .icon-n {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+
+
+
 
