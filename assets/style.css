@@ -86,7 +86,24 @@ nav img {
   min-width: 6rem;
 }
 
-/*.columna2 {
-  position: sticky;
-  max-height: 2982px;
-}*/
+.lilImage2 {
+  width: 70px;
+  height:60px;
+}
+
+.debate1 span,
+.debate2 span {
+  font-weight: 100;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+}
+
+.debate1 {
+  border-top: solid 4px #f92859;
+}
+
+.debate2 {
+  border-bottom: solid 4px #1c87fb;
+}
+
+
