@@ -120,3 +120,8 @@ nav img {
   margin-right: 10px;
 }
 
+.relative-img {
+  position: relative;
+  top: 1rem;
+  right: 3rem;
+}
