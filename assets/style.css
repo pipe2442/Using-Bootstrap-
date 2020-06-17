@@ -72,7 +72,7 @@ nav img {
 }
 
 .subTitle {
-  color: rgba(3, 3, 3, 0.4); 
+  color: rgba(10, 10, 10, 0.6); 
   font-family: 'Roboto', sans-serif;
 }
 
@@ -109,7 +109,6 @@ nav img {
 .n-title {
   font: bold 19px/19px "Roboto Condensed",sans-serif;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 .n-title .icon-n {
