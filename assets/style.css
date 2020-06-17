@@ -31,9 +31,11 @@ nav img {
   font-weight: 800;
   text-transform: uppercase;
 }
+
 .bi-list {
   font-size: 2rem;
 }
+
 .subs2 {
   background-color: #ffe400;
   color: black;
@@ -42,6 +44,13 @@ nav img {
   font: bold 13px/11px "Roboto Condensed", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1rem;
 }
 
 .navList a {
@@ -72,12 +81,12 @@ nav img {
 }
 
 .subTitle {
-  color: rgba(10, 10, 10, 0.6); 
+  color: rgba(10, 10, 10, 0.6);
   font-family: 'Roboto', sans-serif;
 }
 
 .par {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 20px;
 }
@@ -88,13 +97,13 @@ nav img {
 
 .lilImage2 {
   width: 70px;
-  height:60px;
+  height: 60px;
 }
 
 .debate1 span,
 .debate2 span {
   font-weight: 100;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -107,7 +116,7 @@ nav img {
 }
 
 .n-title {
-  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
 }
 
@@ -124,4 +133,21 @@ nav img {
   position: relative;
   top: 1rem;
   right: 3rem;
+}
+
+.newsImg {
+  width: 60%;
+}
+
+.copyrightFooter {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.fab {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #666;
 }

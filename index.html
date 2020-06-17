@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f58a22ad21.js" crossorigin="anonymous"></script> 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -801,10 +802,14 @@
 
       <!--SPONSOR SUBSCRIBE-->
       
-      <div class="container-fluid">
-        <div class="title text-danger">SUBSCRIBE</div>
+      <div class="container-fluid border-bottom my-4">
         <div class="row">
-          <div class="col-lg-7 d-flex justify-content-around align-items-center bg-light mx-3 my-4 px-3 py-5">
+          <div class="title text-danger col-lg-7">SUBSCRIBE</div>
+          <div class="title text-danger col-lg-4 mx-5">NEWSLETTER</div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-7 d-flex justify-content-around align-items-center bg-light mx-4 my-4 px-3 py-5">
             <img class="w-50" src="https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e" alt="subscribe">
             <img class="relative-img w-50" src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4" alt="subscribe">
             <div>
@@ -816,8 +821,16 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            hello world
+          <div class="col-lg-4 my-4 d-flex justify-content-between align-items-center">
+            <img class="newsImg h-100" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt=" newsletter">
+            <div class="ml-4">
+              <div class="n-title">The Starting 5</div>
+              <div class="par">
+                See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+              </div>
+              <input type="text" value="Email adress" class="subTitle px-1 py-2 my-3" >
+              <button class="n-title btn btn-danger my-3 w-100" type="button">FREE SIGN UP ></button>
+            </div>
           </div>
         </div>
       </div>
@@ -825,46 +838,50 @@
 
       
 
+      <!-- FOOTER -->
 
-
-
-
-      <div class="container-fluid">
-        <div class="n-title text-danger">Sports</div>
-        <div class="row border-bottom my-4">
-          <div class="col-lg-4">
-            <img class="img-fluid" src="https://d.newsweek.com/en/full/1600693/wwe-nxt-shotzi-blackheart.webp?w=397&h=265&l=53&t=18&f=df752b339577dea0b8f60c1aefd0dd6d" alt="U.S">
-            <div class="n-title my-4">Shotzi Blackheart Is Ready to Bring Her 'Daredevil Spirit' to NXT</div>
+      <footer class="p-4">
+        <div class="d-flex justify-content-between align-items-end  border-bottom pb-3">
+          <div class="newsFooter d-flex justify-content-start align-items-end">
+            <img class="w-50" src="assets/images/newslogo.PNG" alt="newsLogo">
+            <div class="copyrightFooter mx-2">© 2020 Newsweek</div>
           </div>
-
-          <div class="col-lg-4">
-            <img class="img-fluid" src="https://d.newsweek.com/en/full/1567731/aubrey-huff-san-francisco-giants.webp?w=397&h=265&f=c701221180a96a25ef8d41187ba576e2" alt="U.S">
-            <div class="n-title my-4">Aubrey Huff Says He Would Rather Die From Coronavirus Than Wear a Mask</div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="d-flex flex-row justify-content-around align-items-start border-bottom pb-2">
-              <img class="lilImage" src="https://d.newsweek.com/en/full/1600526/return-englands-premier-league.webp?w=95&h=95&f=34f863bde12270fe8a05d0eac0ee624c" alt="lilimage">
-              <div class="title mx-3">WWE Confirms Talent Tested Positive for COVID-19</div>
-            </div>
-            <div class="d-flex flex-row justify-content-around align-items-start border-bottom py-2">
-              <img class="lilImage" src="https://d.newsweek.com/en/full/1600081/wwe-raw-christian-randy-orton.webp?w=95&h=95&f=bf1a0246fd9f92a724ced38a7ec2babc" alt="lilimage">
-              <div class="title mx-3">Christian Returned to In-Ring Action Against Randy Orton on WWE 'Monday Night RAW'</div>
-            </div>
-            <div class="d-flex flex-row justify-content-around align-items-start py-2">
-              <img class="lilImage" src="https://d.newsweek.com/en/full/1600065/randy-orton-edge-backlash-wwe.webp?w=95&h=95&f=f8af2d3ec842ac6c1536c4c7add64448" alt="lilimage">
-              <div class="title mx-3">'Monday Night RAW' Results (6/15): Randy Orton Challenges Christian</div>
-            </div>
+          <div>
+            <i class="fab fa-facebook-square mx-1"></i>
+            <i class="fab fa-twitter mx-1"></i>
+            <i class="fab fa-instagram mx-1"></i>
+            <i class="fab fa-tumblr mx-1"></i>
+            <i class="fab fa-linkedin-in mx-1"></i>
           </div>
         </div>
-      </div>
+        <div class="d-flex pt-3">
+          <div>Editions:</div>
+          <div>
+            <ul class="d-flex">
+              <a href="#" class="border-right px-2"><li>U.S. Edition</li></a> 
+              <a href="#" class="border-right px-2"><li>日本</li></a>
+              <a href="#" class="border-right px-2"><li>Pakistan</li></a>
+              <a href="#" class="border-right px-2"><li>Polska</li></a>
+              <a href="#" class="px-2"><li>România</li></a>
+            </ul>
+          </div>
+        </div>
+        <ul class="m-0 p-0 d-flex">
+          <a href="#" class="border-right pr-2"><li>About Us</li></a> 
+          <a href="#" class="border-right px-2"><li>Corrections</li></a>
+          <a href="#" class="border-right px-2"><li>Contact Us</li></a>
+          <a href="#" class="border-right px-2"><li>Editorial Guidelines</li></a>
+          <a href="#" class="border-right px-2"><li>Advertise</li></a>
+          <a href="#" class="border-right px-2"><li>Terms & Conditions</li></a>
+          <a href="#" class="border-right px-2"><li>Cookie Policy</li></a>
+          <a href="#" class="border-right px-2"><li>Terms of Sale</li></a>
+          <a href="#" class="border-right px-2"><li>Archive</li></a>
+          <a href="#" class="border-right px-2"><li>Announcements</li></a>
+          <a href="#" class="px-2"><li>Consent preferences</li></a>
+        </ul>
+      </footer>
 
-
-
-
-
-
-
+      <!-- FOOTER -->
 
 
 
