@@ -22,9 +22,15 @@ nav img {
   width: 2rem;
 }
 
+.menu2 {
+  width: 0.8em;
+  height: 0.8em;
+}
+
 .subs {
   background-color: #ffe400;
   color: black;
+  min-width: 130px;
   padding: 0.5rem;
   border-radius: 24px;
   font: bold 14px/20px "Roboto Condensed", sans-serif;
@@ -38,10 +44,11 @@ nav img {
 
 .subs2 {
   background-color: #ffe400;
+  min-width: 100px;
   color: black;
   padding: 0.5rem;
   border-radius: 24px;
-  font: bold 13px/11px "Roboto Condensed", sans-serif;
+  font: bold 10px/11px "Roboto Condensed", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -53,6 +60,11 @@ footer a {
   font-size: 1rem;
 }
 
+.navList {
+  padding: 0;
+  
+}
+
 .navList a {
   color: black;
   text-decoration: none;
@@ -60,8 +72,6 @@ footer a {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  line-height: 24px;
-  padding: 0 1rem;
 }
 
 .navList a:hover {
@@ -92,7 +102,8 @@ footer a {
 }
 
 .lilImage {
-  min-width: 6rem;
+  width: 120px;
+  height: 80px;
 }
 
 .lilImage2 {
@@ -136,7 +147,7 @@ footer a {
 }
 
 .newsImg {
-  width: 60%;
+  width: 250px;
 }
 
 .copyrightFooter {
