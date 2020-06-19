@@ -8,7 +8,7 @@
 ![screenshot](https://github.com/pipe2442/Using-Bootstrap-/blob/develop/assets/images/bootsrapScreen.png?raw=true)
 
 
-This web page is developed by HTML5 and CSS with bootstrap framework.
+This project was built with HTML5 and CSS using bootstrap framework.
 
 ## Built With
 
