@@ -8,6 +8,14 @@ nav {
   font-family: 'Prompt', sans-serif;
 }
 
+.promo {
+  max-width: 300px;
+}
+
+.menuPad {
+  padding: 0 1.4%;
+}
+
 .news {
   font-family: 'Merriweather', serif;
   font-size: 5rem;
@@ -62,6 +70,7 @@ footer a {
 
 .navList {
   padding: 0;
+  list-style: none;
 }
 
 .navList a {
