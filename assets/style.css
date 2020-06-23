@@ -156,7 +156,35 @@ footer a {
 }
 
 .newsImg {
-  width: 250px;
+  width: 100px;
+  height: 200px;
+}
+
+.subsImg {
+  min-width: 15%;
+}
+
+.text-box {
+  min-width: 27%;
+}
+
+.box {
+  height: 90%;
+  padding: 1rem;
+}
+
+.box2 {
+  height: 90%;
+  margin: 0;
+  background:
+    rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    no-repeat scroll;
+  background-position-x: -10em;
+  background-size: cover;
+}
+
+.startingWidth {
+  width: 50%;
 }
 
 .copyrightFooter {
@@ -175,4 +203,41 @@ footer a {
 .magazImg {
   height: 18rem;
   width: 19rem;
+}
+
+.bg-lighter {
+  background-color: #f4f5f6;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .startingWidth {
+    width: 70%;
+  }
+
+  .box2 {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .startingWidth {
+    width: 100%;
+  }
+
+  .subsBox {
+    flex-direction: column;
+  }
+
+  .subsImg-box {
+    padding: 35px 0;
+  }
+
+  .subsBox button {
+    width: 10rem;
+    align-self: center;
+  }
+
+  .center {
+    text-align: center;
+  }
 }
