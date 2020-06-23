@@ -1,4 +1,4 @@
-# Newsweek
+# Newsweek 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 >This project is a website clone based on [newsweek.com](https://newsweek.com/).

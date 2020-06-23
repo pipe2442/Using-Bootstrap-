@@ -95,7 +95,7 @@ footer a {
 
 .title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .subTitle {
@@ -110,8 +110,9 @@ footer a {
 }
 
 .lilImage {
-  width: 120px;
-  height: 80px;
+  width: 150px;
+  min-height: 90px;
+  max-height: 140px;
 }
 
 .lilImage2 {
@@ -169,4 +170,9 @@ footer a {
   font-size: 1.5em;
   font-weight: 400;
   color: #666;
+}
+
+.magazImg {
+  height: 18rem;
+  width: 19rem;
 }
