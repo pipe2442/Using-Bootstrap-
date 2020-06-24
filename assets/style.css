@@ -175,7 +175,12 @@ footer a {
 .relative-img {
   position: relative;
   top: 1rem;
-  right: 3rem;
+  right: 2rem;
+}
+
+.relative-img2 {
+  position: relative;
+  left: 3rem;
 }
 
 .newsImg {
