@@ -5,7 +5,7 @@
 
 
 # Project Screenshot
-![screenshot](https://raw.githubusercontent.com/pipe2442/Using-Bootstrap-/github-pages/assets/images/bootstrapProjectScreen.png)
+![screenshot](https://github.com/pipe2442/Using-Bootstrap-/blob/github-pages/assets/images/bootstrapFinalScreenshotf.png?raw=true)
 
 
 This project was built with HTML5 and CSS using bootstrap framework.
@@ -20,7 +20,7 @@ This project was built with HTML5 and CSS using bootstrap framework.
 
 ## Live Demo
 
--  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/Using-Bootstrap-/55239c3118d1563b0562883d4cb16f14be18e5f2/index.html)
+-  [Hosted on GitHack](https://rawcdn.githack.com/pipe2442/Using-Bootstrap-/a4ebaf49edfb4e1cdb45a773e5ae23abbe50a571/index.html)
 
 ## Getting Started
 
