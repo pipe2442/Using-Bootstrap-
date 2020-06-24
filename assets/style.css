@@ -215,6 +215,10 @@ footer a {
   width: 50%;
 }
 
+.focusWidth {
+  width: 45%;
+}
+
 .copyrightFooter {
   font-size: 12px;
   line-height: 12px;
@@ -253,6 +257,10 @@ footer a {
   .imgTag2 {
     width: 70%;
   }
+
+  .focusWidth {
+    width: 60%;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -279,5 +287,9 @@ footer a {
 
   .imgTag2 {
     width: 45%;
+  }
+
+  .focusWidth {
+    width: 32%;
   }
 }
