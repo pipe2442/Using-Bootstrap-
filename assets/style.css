@@ -35,6 +35,29 @@ nav img {
   height: 0.8em;
 }
 
+.text-black {
+  color: black;
+}
+
+.imgTag {
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.imgTag2 {
+  position: relative;
+  bottom: 35px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 55%;
+}
+
+.text-white {
+  color: white;
+}
+
 .subs {
   background-color: #ffe400;
   color: black;
@@ -209,6 +232,10 @@ footer a {
   background-color: #f4f5f6;
 }
 
+.footerMar {
+  margin-left: -40px;
+}
+
 @media only screen and (max-width: 991.98px) {
   .startingWidth {
     width: 70%;
@@ -216,6 +243,10 @@ footer a {
 
   .box2 {
     background-size: contain;
+  }
+
+  .imgTag2 {
+    width: 70%;
   }
 }
 
@@ -239,5 +270,9 @@ footer a {
 
   .center {
     text-align: center;
+  }
+
+  .imgTag2 {
+    width: 45%;
   }
 }
