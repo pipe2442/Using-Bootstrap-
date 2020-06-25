@@ -5,7 +5,7 @@
 
 
 # Project Screenshot
-![screenshot](https://github.com/pipe2442/Using-Bootstrap-/blob/github-pages/assets/images/bootstrapFinalScreenshotf.png?raw=true)
+![screenshot](https://github.com/pipe2442/Using-Bootstrap-/blob/master/assets/images/bootstrapFinalScreenshotf.png?raw=true)
 
 
 This project was built with HTML5 and CSS using bootstrap framework.
